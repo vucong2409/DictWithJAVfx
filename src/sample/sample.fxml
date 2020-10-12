@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="inputWord" layoutX="1.0" layoutY="100.0" prefWidth="300.0" />
+      <ListView id="lv1" fx:id="lv1" layoutY="130.0" prefHeight="637.0" prefWidth="300.0" />
+      <ImageView fitHeight="100.0" fitWidth="210.0" layoutX="40.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ app_logo.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f74b0" height="100.0" layoutX="225.0" stroke="#1f74b0" strokeType="INSIDE" width="800.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f74b0" height="100.0" stroke="#1f74b0" strokeType="INSIDE" width="48.0" />
+      <Text fx:id="word" fill="#1f74b0" layoutX="307.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select a word from left panel" wrappingWidth="714.22900390625">
+         <font>
+            <Font name="Montserrat Bold" size="18.0" />
+         </font>
+      </Text>
+      <Button fx:id="btn01" layoutX="307.0" layoutY="132.0" mnemonicParsing="false" text="Speak this Word" />
+
+   </children>
+</Pane>
